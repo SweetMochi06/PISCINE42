@@ -1,27 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_is_negative.c                                   :+:      :+:    :+:   */
+/*   ft_ft.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: danperei <danperei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/13 15:29:12 by danperei          #+#    #+#             */
-/*   Updated: 2022/07/14 19:51:01 by danperei         ###   ########.fr       */
+/*   Created: 2022/07/14 14:38:40 by danperei          #+#    #+#             */
+/*   Updated: 2022/07/14 19:51:59 by danperei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+#include <stdio.h>
 
-void	ft_is_negative(int n)
+void	ft_ft(int *nbr)
 {
-	if (n < 0)
-	{
-		write(1, "N", 1);
-	}
-	else
-		write(1, "P", 1);
+	*nbr = 42;
 }
 
 /*int	main()
 {
-	ft_is_negative(-1); //Affiche un N si negatif et P si positif
+	int	i;
+	int	*nbr;
+	
+	i = 22;
+	nbr = &i;
+	ft_ft(&i);
+	printf("%d", *nbr);
 }*/

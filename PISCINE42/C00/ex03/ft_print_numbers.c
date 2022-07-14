@@ -6,32 +6,24 @@
 /*   By: danperei <danperei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/13 13:38:18 by danperei          #+#    #+#             */
-/*   Updated: 2022/07/13 14:59:10 by danperei         ###   ########.fr       */
+/*   Updated: 2022/07/14 19:50:05 by danperei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
 
-
-void	ft_putchar(char c)
+void	ft_print_numbers(void)
 {
-	write(1, &c, 1);
+	int	numbers;
+
+	numbers = '0';
+	while (numbers <= '9')
+	{
+		write(1, &numbers, 1);
+		numbers++;
+	}
 }
 
-void    ft_print_numbers(void)
+/*int	main()
 {
-    int numbers;
-
-    numbers = '0';
-    while (numbers <= '9')
-    {
-        ft_putchar(numbers);
-        numbers++;
-    }
-}
-
-int main()
-{
-    ft_print_numbers();
-}
+	ft_print_numbers();
+}*/

@@ -1,1 +1,1 @@
-id -Gn "$USER" | tr ' ' ',' | tr -d '\n'
+groups "$USER" | tr ' ' ',' | tr -d '\n'

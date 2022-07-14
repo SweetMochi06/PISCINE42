@@ -1,27 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_is_negative.c                                   :+:      :+:    :+:   */
+/*   ft_print_comb2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: danperei <danperei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/13 15:29:12 by danperei          #+#    #+#             */
-/*   Updated: 2022/07/14 19:51:01 by danperei         ###   ########.fr       */
+/*   Created: 2022/07/13 20:28:36 by danperei          #+#    #+#             */
+/*   Updated: 2022/07/14 15:53:59 by danperei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
 
-void	ft_is_negative(int n)
+void    ft_putchar(char c)
 {
-	if (n < 0)
-	{
-		write(1, "N", 1);
-	}
-	else
-		write(1, "P", 1);
+    write(1, &c, 1);
 }
 
-/*int	main()
+void    ft_print_comb2(void)
 {
-	ft_is_negative(-1); //Affiche un N si negatif et P si positif
-}*/
+    int number1;
+
+    number1 = 0;
+    while (number1 <= 99)
+    {
+        ft_putchar(number1);
+        number1++;
+        {
+            
+        }
+    }
+    
+}
+
+int main()
+{
+    ft_print_comb2();
+}

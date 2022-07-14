@@ -6,53 +6,46 @@
 /*   By: danperei <danperei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/13 15:54:59 by danperei          #+#    #+#             */
-/*   Updated: 2022/07/13 20:23:57 by danperei         ###   ########.fr       */
+/*   Updated: 2022/07/14 19:51:11 by danperei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void    ft_putchar(char c)
+void	ft_putchar(char c)
 {
-    write(1, &c, 1);
+	write(1, &c, 1);
 }
 
-void    ft_print_comb(void)
+void	ft_print_comb(void)
 {
-    int n1;
-    int n2;
-    int n3;
+	int	number1;
+	int	number2;
+	int	number3;
 
-    n1 = '0';
-    n2 = '1';
-    n3 = '2';
-    while (n1 <= '7')
-    {
-        while(n2 <= '8')
-        {
-            while (n3 <= '9')
-            {
-                ft_putchar(n1);
-                ft_putchar(n2);
-                ft_putchar(n3);
-                
-                if (n1 != '7' || n2 != '8' || n3 != '9')
-                {
-                    ft_putchar(',');
-                    ft_putchar(' ');
-                }
-                n3++;
-            }
-            n2++;
-            n3 = n2 + 1;
-        }
-        n1++;
-        n2 = n1 + 1;
-        n3 = n2 + 1;
-    }
+	number1 = '0';
+	while (number1 <= '7')
+	{
+		number2 = number1 +1;
+		while (number2 <= '8')
+		{
+			number3 = number2 + 1;
+			while (number3 <= '9')
+			{
+				ft_putchar(number1);
+				ft_putchar(number2);
+				ft_putchar(number3);
+				if (number1 != '7' || number2 != '8' || number3 != '9')
+				write(1, ", ", 2);
+				number3++;
+			}
+			number2++;
+		}
+		number1++;
+	}
 }
 
-int main()
+/*int	main()
 {
-    ft_print_comb();
-}
+	ft_print_comb();
+}*/

@@ -1,25 +1,28 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: danperei <danperei@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/07/14 10:27:11 by danperei          #+#    #+#             */
+/*   Updated: 2022/07/14 19:49:28 by danperei         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-
-#include <unistd.h>
-
-void    ft_putchar(char c)
+void	ft_print_alphabet(void)
 {
-    write(1, &c, 1);
+	int	letter;
+
+	letter = 'a';
+	while (letter <= 'z')
+	{
+		write(1, &letter, 1);
+		letter++;
+	}
 }
 
-void    ft_print_alphabet(void)
+/*int	main()
 {
-    int letter;
-
-    letter = 'a';
-    while (letter <= 'z')
-    {
-        ft_putchar(letter);
-        letter++;
-    }
-}
-
-int main(void)
-{
-    ft_print_alphabet();
-}
+	ft_print_alphabet();
+}*/

@@ -6,7 +6,7 @@
 /*   By: danperei <danperei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/13 11:57:50 by danperei          #+#    #+#             */
-/*   Updated: 2022/07/13 12:30:53 by danperei         ###   ########.fr       */
+/*   Updated: 2022/07/14 20:47:57 by danperei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,8 @@ int	main(void)
 {
 	ft_putchar('a');
 }
+
+/*int	main()
+{
+	ft_putchar('a');
+}*/
