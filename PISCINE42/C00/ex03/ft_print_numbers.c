@@ -6,10 +6,10 @@
 /*   By: danperei <danperei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/13 13:38:18 by danperei          #+#    #+#             */
-/*   Updated: 2022/07/14 19:50:05 by danperei         ###   ########.fr       */
+/*   Updated: 2022/07/16 12:22:55 by danperei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
+#include <unistd.h>
 
 void	ft_print_numbers(void)
 {
@@ -22,8 +22,3 @@ void	ft_print_numbers(void)
 		numbers++;
 	}
 }
-
-/*int	main()
-{
-	ft_print_numbers();
-}*/

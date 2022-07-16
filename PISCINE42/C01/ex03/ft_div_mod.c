@@ -1,30 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   ft_div_mod.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: danperei <danperei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/14 18:17:47 by danperei          #+#    #+#             */
-/*   Updated: 2022/07/16 12:27:03 by danperei         ###   ########.fr       */
+/*   Created: 2022/07/16 14:23:30 by danperei          #+#    #+#             */
+/*   Updated: 2022/07/16 16:48:39 by danperei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include <unistd.h>
 
-void	ft_swap(int *a, int *b)
+void	ft_div_mod(int a, int b, int *div, int *mod)
 {
-	int	c;
-
-	c = *a;
-	*a = *b;
-	*b = c;
+	*div = a / b;
+	*mod = a % b;
 }
 /*int main()
 {
-    int a = 50;
-    int b = 40;
+    int a = 20;
+    int b = 21;
+    int div = a / b;
+    int mod = a % b;
 
-    printf("Avant Swap a: %d b: %d\n", a, b);
-    ft_swap(&a, &b);
-    printf("Après Swap a: %d b: %d\n", a, b);
-*/
+    printf("%d\n", div);
+    printf("%d\n", mod);
+}*/

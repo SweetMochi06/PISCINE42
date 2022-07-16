@@ -6,16 +6,16 @@
 /*   By: danperei <danperei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/14 16:25:30 by danperei          #+#    #+#             */
-/*   Updated: 2022/07/14 19:52:11 by danperei         ###   ########.fr       */
+/*   Updated: 2022/07/16 12:24:24 by danperei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdio.h>
 
-void    ft_ultimate_ft(int *********nbr)
+void	ft_ultimate_ft(int *********nbr)
 {
-   *********nbr = 42;
+	*********nbr = 42;
 }
 
 /*int main()
