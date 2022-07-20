@@ -18,23 +18,25 @@ void	rush(int x, int y)
 	int	j;
 	int	i;
 	if (x >= 1 && y >= 1)
-	j = 1;
-	while (j <= y)
-	{
-		i = 1;
-		while (i <= x)
-		{
-			if ((j == 1 && i == 1) || (j == y && i == x))
-				ft_putchar('A');
-			else if ((j == 1 && i == x) || (j == y && i == 1))
-				ft_putchar('C');
-			else if ((j == 1 || j == y || i == 1 || i == x))
-				ft_putchar('B');
-			else
-				ft_putchar(' ');
-			i++;
-		}
-		ft_putchar('\n');
-		j++;
-	}
+    {
+        j = 1;
+        while (j <= y)
+        {
+            i = 1;
+            while (i <= x)
+            {
+			    if ((j == 1 && i == 1) || (j == y && i == x))
+				    ft_putchar('A');
+			    else if ((j == 1 && i == x) || (j == y && i == 1))
+				    ft_putchar('C');
+			    else if ((j == 1 || j == y || i == 1 || i == x))
+				    ft_putchar('B');
+			    else
+				    ft_putchar(' ');
+			    i++;
+		    }
+		    ft_putchar('\n');
+		    j++;
+        }
+    }
 }
