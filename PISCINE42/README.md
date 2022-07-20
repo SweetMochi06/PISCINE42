@@ -23,7 +23,7 @@ Je me suis bloqué à l'exo 7, j'ai donc passé directement au C00, mais j'ai ap
 <img width="635" alt="Capture d’écran 2022-07-20 à 20 35 22" src="https://user-images.githubusercontent.com/77756115/180056930-a692b1bb-93e8-43c8-83a9-9a50b1fa0990.png">
 
 ## Mon avis :
-L'exo 6 n'est pas compliqué en soit, mais j'ai pas non voulu me prendre la tête pour print_comb2 sachant qu'on était deja jeudi, il m'as fallut sauter au c01 pour me preparer a l'examen00
+L'exo 6 n'est pas compliqué en soit, mais j'ai pas non voulu me prendre la tête pour print_comb2 sachant qu'on était deja jeudi, il m'as fallut sauter au c01 pour me preparer à l'examen00.
 
 ## C01
 ### Moulinette a dit :
