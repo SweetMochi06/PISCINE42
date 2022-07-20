@@ -17,7 +17,7 @@ void	rush(int x, int y)
 {
 	int	j;
 	int	i;
-
+	if (x >= 1 && y >= 1)
 	j = 1;
 	while (j <= y)
 	{
