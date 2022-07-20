@@ -3,19 +3,20 @@
 
 Je tiens à dire, que c'est halal tout ce que j'ai pu faire ici.
 ### Moulinette a dit :
-![Screen Shot 2022-07-13 at 9 46 53 PM](https://user-images.githubusercontent.com/77756115/178818985-500e6a63-edbe-4f07-a60a-2c0fda67b0c0.png)
+<img width="638" alt="Capture d’écran 2022-07-20 à 20 32 50" src="https://user-images.githubusercontent.com/77756115/180056569-53c95434-a8ac-45f2-940f-b7b29704faba.png">
 
-
-![Screen Shot 2022-07-13 at 9 47 00 PM](https://user-images.githubusercontent.com/77756115/178818994-848d9584-2754-4d1b-a4be-f339d462149d.png)
 
 ## SHELL01
 ### Moulinette a dit :
-<img width="201" alt="Capture d’écran 2022-07-20 à 20 29 02" src="https://user-images.githubusercontent.com/77756115/180055952-19613750-a681-4783-81f9-bdd97cda981c.png">
+<img width="636" alt="Capture d’écran 2022-07-20 à 20 35 09" src="https://user-images.githubusercontent.com/77756115/180056895-33a0878d-09f8-408a-bdec-1b70fb434f47.png">
+
 
 ## C00
 ### Moulinette a dit :
-<img width="200" alt="Capture d’écran 2022-07-20 à 20 30 34" src="https://user-images.githubusercontent.com/77756115/180056188-a70913d5-b49b-471f-a66b-8bdad419dbc9.png">
+
+<img width="635" alt="Capture d’écran 2022-07-20 à 20 35 22" src="https://user-images.githubusercontent.com/77756115/180056930-a692b1bb-93e8-43c8-83a9-9a50b1fa0990.png">
 
 ## C01
 ### Moulinette a dit :
-<img width="200" alt="Capture d’écran 2022-07-20 à 20 30 59" src="https://user-images.githubusercontent.com/77756115/180056263-7181e856-aa28-4888-ad2a-6bcb8b9b88b9.png">
+
+<img width="638" alt="Capture d’écran 2022-07-20 à 20 35 39" src="https://user-images.githubusercontent.com/77756115/180056965-3762a5b7-33e5-4393-abfc-0842e60f03a2.png">
