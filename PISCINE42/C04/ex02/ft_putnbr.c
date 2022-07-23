@@ -27,7 +27,7 @@ void	ft_putnbr(int nb)
 		ft_putchar('-');
 		i = i * (-1);
 	}
-	if (i > 0 && i < 10)
+	if (i >= 0 && i <= 9)
 	{
 		ft_putchar(i + '0');
 	}
