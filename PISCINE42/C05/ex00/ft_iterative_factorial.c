@@ -6,7 +6,7 @@
 /*   By: danperei <danperei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/23 13:20:32 by danperei          #+#    #+#             */
-/*   Updated: 2022/07/24 12:06:26 by danperei         ###   ########.fr       */
+/*   Updated: 2022/07/24 16:37:23 by danperei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,9 @@ int ft_iterative_factorial(int nb)
 
 int main()
 {
+    printf("%d\n", ft_iterative_factorial(2));
+    printf("%d\n", ft_iterative_factorial(3));
+    printf("%d\n", ft_iterative_factorial(4));
     printf("%d\n", ft_iterative_factorial(5));
     return (0);
 }

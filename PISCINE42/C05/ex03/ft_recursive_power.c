@@ -6,7 +6,7 @@
 /*   By: danperei <danperei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/24 13:46:01 by danperei          #+#    #+#             */
-/*   Updated: 2022/07/24 14:57:51 by danperei         ###   ########.fr       */
+/*   Updated: 2022/07/25 10:38:42 by danperei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,5 @@ int ft_recursive_power(int nb, int power)
 
 int main()
 {
-    printf("%d\n", ft_recursive_power(2, 4));
+    printf("%d\n", ft_recursive_power(2, 5));
 }

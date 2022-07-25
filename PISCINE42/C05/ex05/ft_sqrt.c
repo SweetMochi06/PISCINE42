@@ -1,37 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_iterative_power.c                               :+:      :+:    :+:   */
+/*   ft_sqrt.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: danperei <danperei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/24 12:06:52 by danperei          #+#    #+#             */
-/*   Updated: 2022/07/25 10:44:36 by danperei         ###   ########.fr       */
+/*   Created: 2022/07/25 12:06:55 by danperei          #+#    #+#             */
+/*   Updated: 2022/07/25 12:15:42 by danperei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include <stdio.h>
 
-int ft_iterative_power(int nb, int power)
+/*nombre	                    0	1	2	3	4	5	6	7	8	9	10
+  racine carrée du nombre	    0	1	2√	3√	2	5√	6√	7√	8√	3	10√ */
+
+int ft_sqrt(int nb)
 {
     int i;
 
     i = 1;
-    if (power < 0)
+    if (nb == 0)
         return (0);
-    if (power == 0)
+    if (nb == 1)
         return (1);
-    while (0 < power)
-    {
-        i = i * nb;
-        power--;
-    }
-    return (i); //valeur a la puissance
+    while 
+    return ()
 }
 
 int main()
 {
-    printf("%d\n", ft_iterative_power(2, 5));
+    ft_sqrt();
     return (0);
 }

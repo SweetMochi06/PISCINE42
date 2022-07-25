@@ -6,7 +6,7 @@
 /*   By: danperei <danperei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/23 13:28:31 by danperei          #+#    #+#             */
-/*   Updated: 2022/07/24 11:45:58 by danperei         ###   ########.fr       */
+/*   Updated: 2022/07/24 16:38:03 by danperei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,9 @@ int ft_recursive_factorial(int nb)
 
 int main()
 {
+    printf("%d\n", ft_recursive_factorial(2));
     printf("%d\n", ft_recursive_factorial(3));
+    printf("%d\n", ft_recursive_factorial(4));
     printf("%d\n", ft_recursive_factorial(5));
     return (0);
 }
