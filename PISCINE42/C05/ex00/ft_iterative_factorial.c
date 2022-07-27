@@ -6,33 +6,33 @@
 /*   By: danperei <danperei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/23 13:20:32 by danperei          #+#    #+#             */
-/*   Updated: 2022/07/24 16:37:23 by danperei         ###   ########.fr       */
+/*   Updated: 2022/07/27 18:33:32 by danperei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdio.h>
 
-int ft_iterative_factorial(int nb)
+int	ft_iterative_factorial(int nb)
 {
-    int factorial;
-    int i;
+	int	i;
 
-    i = 1;
-    factorial = 1;
-    while (i <= nb)
-    {
-        factorial *= i;
-        i++;
-    }
-    return (factorial);
+	i = nb;
+	if (i < nb)
+		return (0);
+	if (i == 0 || nb == 1)
+		return (1);
+	while (i > 1)
+	{
+		nb = b * (i - 1);
+		i--;
+	}
+	return (nb);
 }
 
-int main()
+/*int main()
 {
-    printf("%d\n", ft_iterative_factorial(2));
-    printf("%d\n", ft_iterative_factorial(3));
-    printf("%d\n", ft_iterative_factorial(4));
-    printf("%d\n", ft_iterative_factorial(5));
+    printf("%d\n", ft_iterative_factorial(11));
+
     return (0);
-}
+}*/
